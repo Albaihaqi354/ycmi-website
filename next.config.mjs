@@ -10,6 +10,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '/ycmi-website',
+  assetPrefix: '/ycmi-website',
 }
 
 export default nextConfig
