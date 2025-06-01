@@ -42,7 +42,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Alamat Kantor",
-      content: "Jl. Harapan Bangsa No. 123\nJakarta Selatan 12345\nIndonesia",
+      content: "Jln. Raya Bandung - Garut  Kp. Leuweung Tiis rt 05  rw 01\nDesa Haruman Kecamatan Leles\nKabupaten Garut Kode pos 44152",
     },
     {
       icon: Phone,
@@ -52,7 +52,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@yayasanharapan.org\ndonasi@yayasanharapan.org",
+      content: "info@yayasan.org\ndonasi@yayasan.org",
     },
     {
       icon: Clock,
