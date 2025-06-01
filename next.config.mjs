@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/ycmi-website',
+  assetPrefix: '/ycmi-website/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,9 +12,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
-  basePath: '/ycmi-website',
-  assetPrefix: '/ycmi-website',
 }
 
 export default nextConfig

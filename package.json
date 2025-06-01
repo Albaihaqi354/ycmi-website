@@ -2,7 +2,7 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Albaihaqi354/ycmi-website",
+  "homepage": "https://Albaihaqi354.github.io/ycmi-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
