@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build",
     "export": "next export -o out",
     "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
@@ -28,7 +28,7 @@
     "autoprefixer": "^10.4.19",
     "eslint": "8.56.0",
     "eslint-config-next": "15.2.4",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.5"
