@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react"
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Sari Dewi",
+      name: "Sari",
       role: "Penerima Beasiswa",
       image: "/placeholder.svg?height=80&width=80",
       content:
